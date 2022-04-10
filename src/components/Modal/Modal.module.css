@@ -1,0 +1,45 @@
+.myModal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.myModalContent form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 230px;
+    padding: 20px 30px;
+    background-color: rgb(209, 187, 209);
+    border-radius:10px;
+}
+
+.myModalContent {
+    position: relative;
+}
+.myModalContent h2{
+    margin: 20px 0 10px 0;  
+}
+
+.myModal.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteBtn{
+    position: absolute;
+    top:5px;
+    right:5px;
+    padding: 3px 7px;    
+    font-size: 16px;
+    background-color:rgb(186, 231, 216);
+    border:none;
+    border-radius:3px;
+    cursor: pointer;
+}

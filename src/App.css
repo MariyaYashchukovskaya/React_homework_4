@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(180, 226, 241);
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(60, 60, 60);
+}
+
+.container{
+  max-width: 1000px;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.formCreate{
+  margin: 0 auto;
+  background-color: rgb(209, 187, 209);
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-width: 370px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius:10px;
+}
+
+.formCreate h1{
+font-size: 25px;
+text-align: center;
+}
+
+.sortPost{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortPost p{
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.checkedMessage{
+  margin: 10px auto;
+  background-color: rgb(209, 187, 209);
+  text-align: center;
+  max-width: 370px;  
+  padding: 20px 30px;
+  border-radius:10px;
+}
+
+h2{
+  text-align: center;
+}
+span{
+  font-size: 14px;
+}
+
+.true{
+  display: none;
+}
+.false{
+  display: block;
+  color:red;
+}
+
+
+
+.title{
+  margin: 10px auto;
+  border: 2px dashed grey;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.759);
+  display: flex;
+  padding: 10px 20px;
+  border-radius:10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputNone{
+  width: 5%;
+}
+
+p{
+  width: 21%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btnNone{ 
+  width: 10%;
+  font-size: 16px;
+ 
+}
